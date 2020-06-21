@@ -283,8 +283,8 @@ section.about .img-wrap img {
 /*contact section*/
 
 .contact-me{
-  background: #000000;
-  color: #fff;
+  background: #151515;
+  color: #9a9a9a;
 }
 .reach-me{
   display: flex;
@@ -297,9 +297,8 @@ section.about .img-wrap img {
 .contact-form{
   display: flex;
   margin-right: 0;
-  padding: 50px 120px 30px 0;
-  justify-content: flex-end;
-  width: 100%;
+  padding-top: 50px;
+  justify-content:center;
 }
 .contact-form button{
   background-color: #30ba8a;
@@ -314,6 +313,7 @@ section.about .img-wrap img {
   font-size: 30px;
   position: relative;
   margin-left: 10px;
+  color: #ffffff;
 }
 .contact-content::before {
   content: "";
@@ -325,7 +325,7 @@ section.about .img-wrap img {
 .contact-content h1 {
   color: var(--leading-font-color);
   font-weight: normal;
-  font-size: 35px;
+  font-size: 45px;
   margin-bottom: 70px;
 }
 .contact-content p {
@@ -335,29 +335,30 @@ section.about .img-wrap img {
   font-size: 15px;
 }
 input{
-  background: black;
-  box-sizing: border-box;
+  background: #151515;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #9a9a9a;
   color: white;
+  width: 400px;
 }
 textarea{
   resize: none;
   border: none;
-  border-bottom:1px solid white;
+  border-bottom:1px solid #9a9a9a;
   color: #fff;
-  background-color: black;
+  background-color: #151515;
 }
 label{
   margin-right: 30px;
 }
 .reach-me{
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   position: relative;
-  width: 450px;
-  font-size: 17px;
-  padding:0 0 20px 55px;
+  align-items:flex-start ;
+  width: 50%;
+  font-size: 20px;
+  padding:40px 0 20px 55px;
 }
 .reach-me i{
   margin-right:5px;
